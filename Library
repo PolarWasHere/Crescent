@@ -256,7 +256,7 @@ function CreateWindow(Title, Color)
     
         end
     
-    function CreateRegButton(Title, Menu, callback)
+    function AddButton(Title, Menu, callback)
     local Regular = Instance.new("TextButton")
     local UICorner = Instance.new("UICorner")
     local TextLabel = Instance.new("TextLabel")
@@ -387,7 +387,7 @@ function CreateWindow(Title, Color)
             end)
         end
     
-        function CreateTogButton(Title, Menu, VarToToggle, callback)
+        function AddToggle(Title, Menu, VarToToggle, callback)
             local Toggles = Instance.new("TextButton")
     local UICorner = Instance.new("UICorner")
     local TextLabel = Instance.new("TextLabel")
@@ -472,7 +472,7 @@ function CreateWindow(Title, Color)
             end)
         end
     
-        function CreateToggleSearch(Title, Menu, VarToToggle, callback)
+        function CreateTextToggle(Title, Menu, VarToToggle, callback)
     local SearchToggles = Instance.new("TextButton")
     local UICorner = Instance.new("UICorner")
     local TextLabel = Instance.new("TextLabel")

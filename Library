@@ -311,7 +311,7 @@ function CreateWindow(Title, Color)
     
         end
     
-        function CreateSearchButton(Title, Menu, callback)
+        function AddSearchButton(Title, Menu, callback)
             -- Gui to Lua
     -- Version: 3.2
     

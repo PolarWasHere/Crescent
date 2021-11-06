@@ -790,7 +790,7 @@ function CreateNotification(text, duration)
     end)
 end
 
-function CreateSearchBar(Menu)
+function AddSearchBar(Menu)
     -- Gui to Lua
 -- Version: 3.2
 
